@@ -23,3 +23,39 @@ z={1,2,3,4,5}
 print(len(x),len(y),len(z))    # here len function performed differently for different datatype    
 
 #class 
+
+class kerala:
+
+    def speak(self):
+        print("we speak malayalam")
+
+class tamilnadu:
+
+    def speak(self):
+        print("we speak Thamil")
+
+kerala= kerala()
+
+kerala.speak
+
+tamilnadu=tamilnadu()
+tamilnadu.speak()
+
+
+# method over riding
+
+class A:
+    def m1(slef):
+        print("m1 method form A class")
+
+class B(A):
+    def m1(slef):
+        print("m1 method form B class")
+
+class C(A):
+    def m1(slef):
+        print("m1 method form C class")
+
+obj=C()
+obj.m1()
+
