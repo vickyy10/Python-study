@@ -10,3 +10,19 @@ obj=encap()
 obj.display()
 
 # print(obj.a) here we cant acsess the a variable beacuse a is private
+
+
+# -----------------------------------------------------------------------------------------
+
+
+
+class A:
+    def __init__(self):
+        self._protected_var = 10  # Protected attribute
+
+class B(A):
+    def display_protected_var(self):
+        print(self._protected_var)  # Accessing protected attribute from subclass
+
+obj = B()
+obj.display_protected_var()  # Accessing protected attribute through subclass

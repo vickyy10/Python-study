@@ -1,4 +1,4 @@
-from abc import ABC
+from abc import ABC, abstractmethod
 
 class vehile(ABC):
      def __init__(self,n):
@@ -29,4 +29,5 @@ class car():
     def start(self):
         print("start with key")
 
-v=vehile()
+
+v=vehile(4)
