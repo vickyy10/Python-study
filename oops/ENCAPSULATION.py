@@ -10,6 +10,9 @@ obj=encap()
 obj.display()
 
 # print(obj.a) here we cant acsess the a variable beacuse a is private
+# we can acsess private variable outside by getter and setter method or name mangling method
+
+print(obj._encap__a) #name mangling
 
 
 # -----------------------------------------------------------------------------------------
