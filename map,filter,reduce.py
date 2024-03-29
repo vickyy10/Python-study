@@ -19,12 +19,8 @@ def even(x):
     return x % 2 == 0
 list2=list(range(1,20))
 
-z=filter(even,list2)
+z=filter(lambda x: x%2 == 0,list2)
 print(list(z))
-
-
-
-
 
 
 # reduce
