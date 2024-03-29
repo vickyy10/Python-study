@@ -4,58 +4,135 @@ different places,which is nothing but polymorphism."""
 
 #operator
 
-a=10
-b=20
-print(a+b) #arithematic operation
+# a=10
+# b=20
+# print(a+b) #arithematic operation
 
-a='helo'
-b='haai'
-print(a+b) #string concantiation
+# a='helo'
+# b='haai'
+# print(a+b) #string concantiation
+
+
+
+
+
 
 #functions
 
-x=[1,2,3,4,5,6]
+# x=[1,2,3,4,5,6]
 
-y={"a":10, True:3 , "c":30, "g":45}
+# y={"a":10, True:3 , "c":30, "g":45}
 
-z={1,2,3,4,5} 
+# z={1,2,3,4,5} 
 
-print(len(x),len(y),len(z))    # here len function performed differently for different datatype    
+# print(len(x),len(y),len(z))    # here len function performed differently for different datatype    
+
+
+
+
+
+
 
 #class 
 
-class kerala:
+# class kerala:
 
-    def speak(self):
-        print("we speak malayalam")
+#     def speak(self):
+#         print("we speak malayalam")
 
-class tamilnadu:
+# class tamilnadu:
 
-    def speak(self):
-        print("we speak Thamil")
+#     def speak(self):
+#         print("we speak Thamil")
 
-kerala= kerala()
+# kerala= kerala()
 
-kerala.speak
+# kerala.speak
 
-tamilnadu=tamilnadu()
-tamilnadu.speak()
+# tamilnadu=tamilnadu()
+# tamilnadu.speak()
+
+
+
 
 
 # method over riding
 
-class A:
-    def m1(slef):
-        print("m1 method form A class")
+# class A:
+#     def m1(slef):
+#         print("m1 method form A class")
 
-class B(A):
-    def m1(slef):
-        print("m1 method form B class")
+# class B(A):
+#     def m1(slef):
+#         print("m1 method form B class")
 
-class C(A):
-    def m1(slef):
-        print("m1 method form C class")
 
-obj=C()
-obj.m1()
+# obj=B()
+# obj.m1()
 
+
+
+
+
+
+
+
+# method overloading
+
+# class A():
+    
+#     def m1(self,a,b):
+#         return a+b
+        
+#     def m1(self,a): #this will exicute 
+#         return a
+
+# obj=A()
+
+# print(obj.m1(10,20)) # this will show an error
+
+
+
+
+
+# constructor overloading
+
+# class A():
+    
+#     def __init__(self,a,b,c):
+#         print(a,b,c)
+        
+    
+        
+# class B(A):
+    
+#     def __init__(self,d,e,f):
+        
+#         super().__init__(d,e,f) #calling constructor fro
+        
+# obj=B(1,2,3)
+
+
+
+
+# duck typing
+
+class A():
+    def m1(self):
+        print("heyyyyyyyyyyyyy")
+
+class B():
+    def m1(self):
+        print("helooooooooooooooo")
+
+
+def f(clss):
+    clss.m1()
+
+
+obj1=A()
+obj2=B()
+
+
+f(obj1)
+f(obj2)
