@@ -10,6 +10,8 @@ def m(n):
 
 g=m(5)
 
-print(next(g))
-print(next(g))
-print(next(g))
+for i in range(20):
+
+    print(g)
+
+
