@@ -13,7 +13,6 @@
 
 # acsessiing by index
 
-
 # list1=[[1,2,3],[["a",'b','c'],1,4,2]] 
 # print(list1[1][0][1])
 
@@ -77,20 +76,6 @@
 # l.sort(key=f)
 
 # print(l)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
