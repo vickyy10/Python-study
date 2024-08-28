@@ -186,20 +186,20 @@
 
 
 
-l = ["helo", "heeiei", "mishal", "yasin","k"]
+# l = ["helo", "heeiei", "mishal", "yasin","k"]
 
-s="aeiouAEIOU"
+# s="aeiouAEIOU"
 
 
 
-for i in l:
-    vow_l=[j for j in i if j in s ]
+# for i in l:
+#     vow_l=[j for j in i if j in s ]
 
-    if vow_l:
-        print(f"vowels in  {i} : {''.join(vow_l)}")
+#     if vow_l:
+#         print(f"vowels in  {i} : {''.join(vow_l)}")
 
-    else:
-        print(f"no vowvels in {i}")
+#     else:
+#         print(f"no vowvels in {i}")
 
 
 # l="jiask"
@@ -263,9 +263,16 @@ for i in l:
 
 # star pyramid
 
-num =5
-for i in range(1,num+1):
-    print(" " * (num-i) + "*" * (2*i-1))
+# num =5
+# for i in range(1,num+1):
+#     print(" " * (num-i) + "*" * (2*i-1))
+
+x=1
+
+r=x is 0
+
+
+print(r)
 
 
 
