@@ -2,7 +2,7 @@
 
 list1 = [1, True, 'vicky', 4.90,1]
 
-# tuple (orderd,immutable,allow duplicate)
+# tuple (orderd,unchangable,allow duplicate)
 
 tuple1=("hey",1,False,2.34,1)
 
