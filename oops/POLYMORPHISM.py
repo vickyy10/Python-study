@@ -35,22 +35,6 @@ different places,which is nothing but polymorphism."""
 
 #class 
 
-# class kerala:
-
-#     def speak(self):
-#         print("we speak malayalam")
-
-# class tamilnadu:
-
-#     def speak(self):
-#         print("we speak Thamil")
-
-# kerala= kerala()
-
-# kerala.speak
-
-# tamilnadu=tamilnadu()
-# tamilnadu.speak()
 
 
 
@@ -117,22 +101,22 @@ different places,which is nothing but polymorphism."""
 
 # duck typing
 
-class A():
-    def m1(self):
-        print("heyyyyyyyyyyyyy")
+# class A():
+#     def m1(self):
+#         print("heyyyyyyyyyyyyy")
 
-class B():
-    def m1(self):
-        print("helooooooooooooooo")
-
-
-def f(clss):
-    clss.m1()
+# class B():
+#     def m1(self):
+#         print("helooooooooooooooo")
 
 
-obj1=A()
-obj2=B()
+# def f(clss):
+#     clss.m1()
 
 
-f(obj1)
-f(obj2)
+# obj1=A()
+# obj2=B()
+
+
+# f(obj1)
+# f(obj2)

@@ -4,31 +4,46 @@
 #         return result.upper()
 #     return wrapper
 
-# @upper_decor
+
 # def hello_name(name):
 #     return 'hello'+name
 
 
+# temp=upper_decor(hello_name)
 
-# print(hello_name("mishal"))
+# print(temp('ansas'))
+
+ 
 
 
 
-def outer():
-    def inner(x):
-        return x+1
+
+
+
+
+# def outer():
+#     def inner(x):
+#         return x+1
     
-    return inner
+#     return inner
 
-def ff(numm):
-    return numm
+# def ff(numm):
+#     return numm
 
 
-u=outer()
 
-r=u(ff(9))
 
-print(r)
+
+
+# print(outer()(ff(9)))
+
+
+
+
+# def fo():
+#     pass
+
+# print(fo.__name__)
 
 
 
