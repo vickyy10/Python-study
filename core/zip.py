@@ -41,10 +41,13 @@
 
 # t=("a","b","c","d","e","f")
 
-# r=list(zip(l,t))
+# s="hailooo"
 
-# tt,ll=zip(*r)
+# r=list(zip(l,t,s))
+
+# tt,ll,ss=zip(*r)
 # print(r)
 # print(tt)
 # print(ll)
+# print(ss)
 
