@@ -1,4 +1,4 @@
-# call by 
+# call by value
 
 # pass a copy of orginal
 
